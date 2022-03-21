@@ -32,6 +32,7 @@
 
 //Solution for Hoisting + Scoping
 
+//2. Work on let
 //console.log(a);
 //Can't redeclare
 //Can Reassign Value
@@ -46,13 +47,15 @@ var b = 3;
 }
 console.log(b);
 
+
+//3. Work on const
 //Can't redeclare
 //Can't reassign value
+//Help in memory management
 const c = 10;
 //c = 20;
 //const c = 4;
 console.log(c);
-
 {
  const d = 5;
 }
