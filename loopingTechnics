@@ -1,0 +1,37 @@
+//Looping Technic
+
+//For
+//While
+//DoWhile
+//Foreach
+
+const arr = [...Array(100000000).keys()]
+
+//For
+console.time('for');
+for (let i = 0; i< arr.length; i++) {
+
+}
+console.timeEnd('for')
+
+//While
+console.time('While');
+let j = 0;
+while (j<arr.length) {
+    j++
+}
+console.timeEnd('While')
+
+//DoWhile
+console.time('DoWhile');
+let k = 0;
+do {
+    k++
+} while (k<arr.length);
+console.timeEnd('DoWhile')
+
+//Foreach
+console.time('Foreach');
+arr.forEach(element => {
+});
+console.timeEnd('Foreach')
