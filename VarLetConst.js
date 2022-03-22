@@ -414,3 +414,64 @@
 
 // const book1 = new Book('Title 1', 'Author 1', '100')
 // console.log(book1);
+
+
+
+
+
+
+
+
+// //Inheritence
+// class Employye{
+//     empId;
+//     firstName;
+//     lastName;
+//     email;
+//     annualSalary;
+
+//     getFullName(){
+//         console.log(`${this.firstName} ${this.lastName}`);
+//     }
+// }
+
+// class FullTimeEmployee extends Employye {
+//     annualSalary;
+// }
+
+// class PartTimeEmployee extends Employye {
+//     hourSalary;
+// }
+
+// let fte = new FullTimeEmployee();
+// fte.empId = 1
+// fte.firstName = 'Razi'
+// fte.lastName = 'Khan'
+// fte.email = 'razi@gmail.com'
+// fte.annualSalary = 500000
+// console.log(fte);
+
+// let pte = new PartTimeEmployee();
+// pte.empId = 2
+// pte.firstName = 'Vaseem'
+// pte.lastName = 'Saifi'
+// pte.email = 'vaseem@gmail.com'
+// pte.annualSalary = 1000000
+// pte.hourSalary = 25000
+// console.log(pte);
+
+
+
+
+
+
+
+
+// //Modules
+// import {employee} from '../ReactNative_Training/stringLiteral'
+// let employee = new Employye();
+
+
+
+
+
